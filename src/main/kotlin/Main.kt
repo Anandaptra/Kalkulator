@@ -21,9 +21,18 @@ fun main(){
     output(pembeli)
 }
 
-fun output(pembeli: Penjualan) {
+private fun output(pembeli: Penjualan) {
 
-
+    println("======================================================")
+    println("STRUK PEMBELIAN BUKU TOKO AND5")
+    println("______________________________________________________")
+    pembeli.getNamaPembeli()
+    pembeli.getJumlah()
+    pembeli.getTotal()
+    pembeli.getBayar()
+    pembeli.getKembalian()
+    pembeli.getBonus()
+    println("------------------TERIMAKASIH--------------------------")
 }
 
 
